@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Form Example</title>
+    </head>
+    <body>
+        
+        <h2>Form Example</h2>
+
+        <form method="get">
+            <div>
+                <label for="firstName">First Name:</label>
+                <input 
+                    placeholder="Enter First Name" 
+                    id="firstName"
+                    name="firstName"
+                    type="text"
+                    required
+                    minlength="2"
+                    maxlength="25"
+                    pattern="^[A-Z]{1}[a-z]{1,}$"
+                    autocomplete="off"
+                    title="This field should have First Capital Letter and minimum length is 2"
+                /> 
+            </div>
+            <br/>
+            <div>
+                <label for="lastName">Last Name:</label>
+                <input 
+                    placeholder="Enter Last Name" 
+                    id="lastName"
+                    name="last"
+                    type="text"
+                /> 
+            </div>
+
+            <br/>
+
+            <div>
+                <label for="mobile">Mobile Number:</label>
+                <input 
+                    placeholder="Enter Mobile Number" 
+                    id="mobile"
+                    name="mobileNumber"
+                    type="number"
+                /> 
+            </div>
+
+            <br/>
+
+            <div>
+                <label for="gender">Gender:</label>
+                <input 
+                    id="male"
+                    type="radio"
+                    name="gender"
+                    value="Male"
+                /> 
+                <label for="male">Male</label>
+                
+                <input 
+                    id="female"
+                    type="radio"
+                    name="gender"
+                    value="Female"
+                /> 
+                <label for="female">Female</label>
+
+                <input 
+                    id="other"
+                    type="radio"
+                    name="gender"
+                    value="Other"
+                /> 
+                <label for="other">Other</label>
+            </div>
+
+            <br/>
+
+            <div>
+                <label for="email">Email</label>
+                <input 
+                    id="email"
+                    name="email"
+                    type="text"
+                    required
+                    placeholder="Enter Email"
+                    autocomplete="off"
+                    pattern="^\w{3,}@[a-z]{2,}[.]+[a-z]{1,}$"
+                    title="The Email should be in valid pattern"
+                />
+            </div>
+
+            <br/>
+
+            <div>
+                <label for="">Favourite Sport:</label>
+                <br/>
+                <input type="checkbox" value="cricket" id="cricket" name="sport" /> <label for="cricket">Cricket</label><br/>
+                <input type="checkbox" value="football" id="football" name="sport" /> <label for="football">Football</label><br/>
+                <input type="checkbox" value="hockey" id="hockey" name="sport" /> <label for="hockey">Hockey</label><br/>
+                <input type="checkbox" value="basketball" id="basketball" name="sport" /> <label for="basketball">Basketball</label><br/>
+                <input type="checkbox" value="running" id="running" name="sport" /> <label for="running">Running</label><br/>
+
+            </div>
+
+            <br/>
+
+            <div>
+                <label for="city1">City:</label>
+                <select name="city" id="city1">
+                    <option value="null">Please Select a city</option>
+                    <option value="1">Pune</option>
+                    <option value="2">Mumbai</option>
+                    <option value="3">Nagpur</option>
+                    <option value="4">Indore</option>
+                    <option value="5">Delhi</option>
+                    <option value="6">Hydrabad</option>
+                    <option value="7">Chennai</option>
+                    <option value="8">Kolkata</option>
+                </select>
+            </div>
+
+            <br/>
+            <div>
+                <label for="description">Describe:</label>
+                <textarea 
+                    id="description" 
+                    name="description"
+                    cols="40"
+                    rows="8"
+                ></textarea>
+            </div>
+
+            <br/>
+
+            <div>
+                <label>Resume:</label>
+                <input type="file" />
+            </div>
+
+            <br/>
+
+            <div>
+                <label for="DOB">Date of birth:</label>
+                <input type="date" name="dob" id="DOB" />
+            </div>
+
+            <br />
+
+            <div>
+                <label for="color">Color:</label>
+                <input type="color" name="color" id="color" />
+            </div>
+
+            <button type="reset">Reset</button>
+            <button type="submit">Save</button>
+        </form>
+
+    </body>
+</html>
