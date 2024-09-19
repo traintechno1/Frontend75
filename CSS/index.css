@@ -42,3 +42,54 @@ h2{
     border: 2px solid cornflowerblue;
     margin: 20px;
 }
+
+.underline-link{
+    text-decoration-style: solid;
+    text-decoration-color: red;
+    text-decoration-thickness: 2px;
+}
+.overline-link{
+    text-decoration: overline;
+    text-decoration-color: blueviolet;
+    text-decoration-thickness: 2px;
+}
+.link-to-btn{
+    text-decoration: none;
+    color: black;
+    border: 1px solid;
+    padding: 10px 5px;
+    display: block;
+    width: 100px;
+    border-radius: 10px;
+}
+.link-to-btn:hover{
+    background: red;
+    color: white;
+}
+
+ul{
+    margin: 0;
+    list-style-type: none;
+    padding: 0;
+}
+
+table{
+    border: 1px solid gray;
+    border-collapse: collapse;
+    width: 50%;
+    margin: 0 auto;
+}
+th, td{
+    border:  1px solid gray;
+    padding: 10px 0;
+    text-align: center;
+}
+th{
+    background-color: #33d588;
+    color: white;
+    font-size: 17px;
+}
+
+tr:nth-child(even){
+    background-color: #f4f2f2;
+}
