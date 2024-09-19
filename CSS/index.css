@@ -1,0 +1,44 @@
+body{
+    margin: 0;
+}
+h2{
+    color: cadetblue;
+    font-size: 30px;
+}
+.heading{
+    color: tomato;
+    font-size: 40px;
+}
+#heading1{
+    color: seagreen;
+    background-color: plum;
+}
+
+.text{
+    color: dodgerblue;
+}
+
+.container{
+    background-color: red;
+    color: white;
+    width: 100px;
+    width: 10%;
+    width: 10vw;
+    width: 4in;
+    width: 3cm;
+    width: 25mm;
+    height: 20vh;
+}
+
+.box{
+    font-size: 22px;
+    /* height: 30px; */
+    width: 150px;
+    background-color: antiquewhite;
+    padding: 10px;
+    /* border-width: 2px; */
+    /* border-style: solid; */
+    /* border-color: cornflowerblue; */
+    border: 2px solid cornflowerblue;
+    margin: 20px;
+}
