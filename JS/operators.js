@@ -1,7 +1,6 @@
 let a = 10;
 let b = 10;
 
-
 // 10 = 3; Syntax Error LHS should always be a variable and not value
 
 // let result;
@@ -51,7 +50,12 @@ let b = 10;
 
 // console.log(a, b);
 
-let val1 = false;
-let val2 = false;
+// let val1 = true;
+// let val2 = false;
 
-console.log( val1 || val2 );
+// console.log( val1 || val2 );
+// console.log( val1 && val2 );
+// console.log( !val1 );
+
+let result =  a > 3 ? "a is bigger" : 'a is smaller';
+console.log(result);
