@@ -57,5 +57,21 @@ let b = 10;
 // console.log( val1 && val2 );
 // console.log( !val1 );
 
-let result =  a > 3 ? "a is bigger" : 'a is smaller';
-console.log(result);
+// let result =  a > 3 ? "a is bigger" : 'a is smaller';
+// console.log(result);
+
+let value1 = 10;
+// let result = ++value1 + ++value1;
+
+let result = value1--;
+
+// value1 -> 12
+// result -> 11 + 12
+
+
+console.log('Result: ' + result + ' Value1: ' + value1);
+
+// let A = 100;
+// let result1 = ++A;
+// console.log('Result: ' + result1 + ' A: ' + A);
+
