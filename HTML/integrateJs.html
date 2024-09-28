@@ -4,9 +4,60 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <link rel="stylesheet" href="../CSS/integrate.css">
+
 </head>
 <body>
     <h2>JS Course</h2>
+    
+    <div class="container">
+        <h2>User Details</h2>
+        <button onclick="getUserDetails()">Get User Details</button>
+        <div> 
+            <span class="bold-label">Name:</span> 
+            <span id="name"></span>
+        </div> 
+        <div>
+            <span class="bold-label">Email:</span>
+            <span id="email"></span>
+        </div>
+        <div>
+            <span class="bold-label">Mobile:</span>  
+            <span id="mobile"></span>
+        </div>
+        <div>
+            <span class="bold-label">Gender: </span> 
+            <span id="gender"></span>
+        </div>
+    </div>
+
+    <button onclick="changeHeading()">Change Heading</button>
+    <br/>
+    <br/>
+
+    <input 
+        type="text" 
+        name="description" 
+        autocomplete="off"
+        id="description"
+        onkeyup="getDescription(event.target.value)"
+        placeholder="Enter any text" />
+    <!-- <button onclick="getDescription()">Get Description</button> -->
+
+    <!-- <h2 class="" id="description"></h2> -->
+    <button onclick="showDescription()">Add Description</button>
+
+    <table id="descriptionTable">
+        <thead>
+            <tr>
+                <th>Description</th>
+            </tr>
+        </thead>
+       <tbody>
+            // going to add rows through JS
+       </tbody>
+    </table>
+
     <!-- <script src="../JS/index.js"></script> -->
     <!-- <script src="../JS/operators.js"></script> -->
     <!-- <script src="../JS/conditionalStatements.js"></script> -->
@@ -14,7 +65,7 @@
     <!-- <script src="../JS/array.js"></script> -->
     <!-- <script src="../JS/function.js"></script> -->
     <!-- <script src="../JS/object.js"></script> -->
-    <script src="../JS/string.js"></script>
-
+    <!-- <script src="../JS/string.js"></script> -->
+    <script src="../JS/dom.js"></script>
 </body>
 </html>
